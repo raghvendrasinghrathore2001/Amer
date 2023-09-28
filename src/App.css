@@ -1,0 +1,89 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.app{
+  background-image: url('./image/fort.jpg');
+  height: 1000px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  filter: grayscale(100px);
+  filter: contrast(100%);
+}
+.hello{
+  font-size: 100px;
+  text-align: center;
+  color: rgb(207, 169, 122);
+  text-shadow: 2px 10px black ;
+  /* position: relative;
+  top: -1000px; */
+  
+
+  
+}
+
+.button{
+  position: relative;
+  left: 75px;
+  width: 150px;
+  height: 30px;
+  background-color: blanchedalmond;
+  border: none;
+  border-radius:20%;
+}
+.button:hover{
+  width: 170px;
+  height: 40px;
+  color: rgb(1, 1, 5);
+  background-color: blanchedalmond;
+}
+
+.thirdsection{
+  border: 5px;
+  border-style: solid;
+  border-color: rgb(5, 3, 0);
+  border-radius: 20px;
+  box-shadow: 15px 10px 5px black ;
+  width: 350px;
+  height: 250px;
+  font-size: 30px;
+  font-weight: 800;
+  position: relative;
+  top: 250px;
+  left: 600px;
+  text-align: left;
+  padding-left:  60px;
+  padding-top: 40px;
+  font-weight: 400px;
+  justify-content: space-around;
+  color: rgb(0, 2, 4);
+  
+  
+
+
+}
+.input{
+  width: 200px;
+  height: 30px;
+  background-color: blanchedalmond;
+  border: none;
+  border-radius: 10px;
+}
+.date{
+  background-color: blanchedalmond;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+}
+.time{
+   background-color: blanchedalmond;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+}
